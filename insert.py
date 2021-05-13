@@ -1,9 +1,9 @@
 def insert(strng):
     val = []
     count=0
-    #type_name = dictt('dictionary_type','NONE')
-    #nam = dictt('dictionary_name','NONE')
-    #mag = dictt('dictionary_mag','NONE')
+    type_name = dictt('dictionary_type','NONE')
+    nam = dictt('dictionary_name','NONE')
+    mag = dictt('dictionary_mag','NONE')
     con=connection()
     cur = con.cursor()
     
